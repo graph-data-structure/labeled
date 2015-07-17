@@ -29,7 +29,7 @@
 	},
 	"author": "aureooms",
 	"main": "js/dist/graph-labeled.js",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"bugs": {
 		"url": "https://github.com/aureooms/js-graph-labeled/issues"
 	},
