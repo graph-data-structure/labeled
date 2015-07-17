@@ -1,0 +1,11 @@
+{
+	"version": "0.0.0",
+	"description": "labeled graph code bricks for JavaScript",
+	"name": "aureooms-js-graph-labeled",
+	"license": "AGPL-3.0",
+	"repo": "aureooms/js-graph-labeled",
+	"scripts": [
+		"js/dist/graph-labeled.js"
+	],
+	"main": "js/dist/graph-labeled.js"
+}

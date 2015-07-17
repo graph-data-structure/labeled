@@ -1,0 +1,42 @@
+{
+	"homepage": "http://aureooms.github.io/js-graph-labeled/",
+	"keywords": [
+		"bricks",
+		"edge",
+		"edges",
+		"ender",
+		"graph",
+		"graphs",
+		"javascript",
+		"js",
+		"label",
+		"labeled",
+		"vertex",
+		"vertices"
+	],
+	"dependencies": {},
+	"repository": {
+		"url": "https://github.com/aureooms/js-graph-labeled.git",
+		"type": "git"
+	},
+	"description": "labeled graph code bricks for JavaScript",
+	"name": "aureooms-js-graph-labeled",
+	"license": "AGPL-3.0",
+	"scripts": {
+		"build": "./node_modules/.bin/aureooms-node-package-build",
+		"doc": "./node_modules/.bin/groc",
+		"test": "./node_modules/.bin/aureooms-node-package-test"
+	},
+	"author": "aureooms",
+	"main": "js/dist/graph-labeled.js",
+	"version": "0.0.0",
+	"bugs": {
+		"url": "https://github.com/aureooms/js-graph-labeled/issues"
+	},
+	"spm": {
+		"main": "js/dist/graph-labeled.js"
+	},
+	"devDependencies": {
+		"aureooms-node-package": "^4.2.5"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"debug": false,
+	"out": "js/dist/",
+	"code": {
+		"test": [
+			"test",
+			"js"
+		],
+		"main": [
+			"js",
+			"dist",
+			"graph-labeled.js"
+		]
+	},
+	"src": "js/src/",
+	"name": "graph-labeled"
+}
