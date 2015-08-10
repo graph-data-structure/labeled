@@ -161,11 +161,31 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "foldPrefix": "^",
           "name": "JavaScript"
         },
-        "sourcePath": "/home/aureooms/dev/js/js-graph-labeled/js/src/dummy.js",
-        "projectPath": "js/src/dummy.js",
-        "targetPath": "dummy",
-        "pageTitle": "dummy",
-        "title": "dummy"
+        "sourcePath": "/home/aureooms/dev/js/js-graph-labeled/js/src/Labeled.js",
+        "projectPath": "js/src/Labeled.js",
+        "targetPath": "Labeled",
+        "pageTitle": "Labeled",
+        "title": "Labeled"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-graph-labeled/js/src/label.js",
+        "projectPath": "js/src/label.js",
+        "targetPath": "label",
+        "pageTitle": "label",
+        "title": "label"
       },
       "depth": 1,
       "outline": []
