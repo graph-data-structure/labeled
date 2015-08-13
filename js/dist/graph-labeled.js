@@ -22,8 +22,13 @@ var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = 
 		};
 
 		Labeled.prototype.vadd = function (label) {
+			var _G;
 
-			var ref = this.G.vadd();
+			for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+				args[_key - 1] = arguments[_key];
+			}
+
+			var ref = (_G = this.G).vadd.apply(_G, args);
 
 			this.labels.set(ref, label);
 
@@ -44,8 +49,13 @@ var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = 
 		};
 
 		Labeled.prototype.eadd = function (u, v) {
+			var _G2;
 
-			return this.G.eadd(this.V.get(u), this.V.get(v));
+			for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
+				args[_key2 - 2] = arguments[_key2];
+			}
+
+			return (_G2 = this.G).eadd.apply(_G2, [this.V.get(u), this.V.get(v)].concat(args));
 		};
 
 		Labeled.prototype.edel = function (e) {
@@ -344,6 +354,8 @@ var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = 
 				}
 			}, callee$2$0, this, [[3, 14, 18, 26], [19,, 21, 25]]);
 		});
+
+		Labeled.prototype.vertices = Labeled.prototype.vitr;
 
 		Labeled.prototype.edges = regeneratorRuntime.mark(function callee$2$0() {
 			var _iteratorNormalCompletion5, _didIteratorError5, _iteratorError5, _iterator5, _step5, _step5$value, u, v, e;

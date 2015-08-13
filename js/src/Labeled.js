@@ -11,9 +11,9 @@ const Labeled = function ( G , V , labels ) {
 
 } ;
 
-Labeled.prototype.vadd = function ( label ) {
+Labeled.prototype.vadd = function ( label , ...args ) {
 
-	const ref = this.G.vadd( ) ;
+	const ref = this.G.vadd( ...args ) ;
 
 	this.labels.set( ref , label ) ;
 
@@ -35,9 +35,9 @@ Labeled.prototype.vdel = function ( label ) {
 
 } ;
 
-Labeled.prototype.eadd = function ( u , v ) {
+Labeled.prototype.eadd = function ( u , v , ...args ) {
 
-	return this.G.eadd( this.V.get( u ) , this.V.get( v ) ) ;
+	return this.G.eadd( this.V.get( u ) , this.V.get( v ) , ...args ) ;
 
 } ;
 
@@ -95,6 +95,8 @@ Labeled.prototype.dpitr = function* ( w ) {
 	for ( let v of this.G.dpitr( this.V.get( w ) ) ) yield this.labels.get( v ) ;
 
 } ;
+
+Labeled.prototype.vertices = Labeled.prototype.vitr ;
 
 Labeled.prototype.edges = function* ( ) {
 

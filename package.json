@@ -1,45 +1,47 @@
 {
-	"homepage": "http://aureooms.github.io/js-graph-labeled/",
-	"keywords": [
-		"bricks",
-		"edge",
-		"edges",
-		"ender",
-		"graph",
-		"graphs",
-		"javascript",
-		"js",
-		"label",
-		"labeled",
-		"vertex",
-		"vertices"
-	],
-	"dependencies": {},
-	"repository": {
-		"url": "https://github.com/aureooms/js-graph-labeled.git",
-		"type": "git"
-	},
-	"description": "labeled graph code bricks for JavaScript",
-	"name": "aureooms-js-graph-labeled",
-	"license": "AGPL-3.0",
-	"scripts": {
-		"build": "./node_modules/.bin/aureooms-node-package-build",
-		"doc": "./node_modules/.bin/groc",
-		"test": "./node_modules/.bin/aureooms-node-package-test"
-	},
-	"author": "aureooms",
-	"main": "js/dist/graph-labeled.js",
-	"version": "0.0.2",
-	"bugs": {
-		"url": "https://github.com/aureooms/js-graph-labeled/issues"
-	},
-	"spm": {
-		"main": "js/dist/graph-labeled.js"
-	},
-	"devDependencies": {
-		"aureooms-js-adjacency-list": "^2.0.1",
-		"aureooms-js-dll": "^6.0.9",
-		"aureooms-js-graph-spec": "^1.0.3",
-		"aureooms-node-package": "^5.0.2"
-	}
+  "homepage": "http://aureooms.github.io/js-graph-labeled/",
+  "keywords": [
+    "bricks",
+    "edge",
+    "edges",
+    "ender",
+    "graph",
+    "graphs",
+    "javascript",
+    "js",
+    "label",
+    "labeled",
+    "vertex",
+    "vertices"
+  ],
+  "dependencies": {},
+  "repository": {
+    "url": "https://github.com/aureooms/js-graph-labeled.git",
+    "type": "git"
+  },
+  "description": "labeled graph code bricks for JavaScript",
+  "name": "aureooms-js-graph-labeled",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "build": "./node_modules/.bin/aureooms-node-package-build",
+    "doc": "./node_modules/.bin/groc",
+    "test": "./node_modules/.bin/aureooms-node-package-test"
+  },
+  "author": "aureooms",
+  "main": "js/dist/graph-labeled.js",
+  "version": "0.0.2",
+  "bugs": {
+    "url": "https://github.com/aureooms/js-graph-labeled/issues"
+  },
+  "spm": {
+    "main": "js/dist/graph-labeled.js"
+  },
+  "devDependencies": {
+    "aureooms-js-adjacency-list": "^4.0.7",
+    "aureooms-js-cardinality": "^1.1.0",
+    "aureooms-js-collections": "^1.0.0",
+    "aureooms-js-dll": "^6.0.10",
+    "aureooms-js-graph-spec": "^5.0.1",
+    "aureooms-node-package": "^5.0.2"
+  }
 }
