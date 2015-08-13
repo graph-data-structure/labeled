@@ -6,9 +6,9 @@
 
 } ;
 
-Labeled.prototype.vadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> label </span>) </span>{
+Labeled.prototype.vadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> label , ...args </span>) </span>{
 
-	<span class="hljs-keyword">const</span> ref = <span class="hljs-keyword">this</span>.G.vadd( ) ;
+	<span class="hljs-keyword">const</span> ref = <span class="hljs-keyword">this</span>.G.vadd( ...args ) ;
 
 	<span class="hljs-keyword">this</span>.labels.set( ref , label ) ;
 
@@ -24,9 +24,9 @@ Labeled.prototype.vdel = <span class="hljs-function"><span class="hljs-keyword">
 
 } ;
 
-Labeled.prototype.eadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> u , v </span>) </span>{
+Labeled.prototype.eadd = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> u , v , ...args </span>) </span>{
 
-	<span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.G.eadd( <span class="hljs-keyword">this</span>.V.get( u ) , <span class="hljs-keyword">this</span>.V.get( v ) ) ;
+	<span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.G.eadd( <span class="hljs-keyword">this</span>.V.get( u ) , <span class="hljs-keyword">this</span>.V.get( v ) , ...args ) ;
 
 } ;
 
@@ -84,6 +84,8 @@ Labeled.prototype.dpitr = <span class="hljs-function"><span class="hljs-keyword"
 	<span class="hljs-keyword">for</span> ( <span class="hljs-keyword">let</span> v <span class="hljs-keyword">of</span> <span class="hljs-keyword">this</span>.G.dpitr( <span class="hljs-keyword">this</span>.V.get( w ) ) ) <span class="hljs-keyword">yield</span> <span class="hljs-keyword">this</span>.labels.get( v ) ;
 
 } ;
+
+Labeled.prototype.vertices = Labeled.prototype.vitr ;
 
 Labeled.prototype.edges = <span class="hljs-function"><span class="hljs-keyword">function</span>* (<span class="hljs-params"> </span>) </span>{
 
