@@ -13,7 +13,7 @@
 		".gitignore",
 		"README.md"
 	],
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "labeled graph code bricks for JavaScript",
 	"name": "aureooms-js-graph-labeled",
 	"license": "AGPL-3.0",
