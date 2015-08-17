@@ -1,7 +1,11 @@
 [js-graph-labeled](http://aureooms.github.io/js-graph-labeled)
 ==
 
-labeled graph code bricks for JavaScript
+Labeled graph code bricks for JavaScript.
+
+```js
+G.vadd( "A" ) ;
+```
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-graph-labeled.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-graph-labeled/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-graph-labeled.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-graph-labeled)
