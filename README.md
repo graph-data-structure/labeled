@@ -7,7 +7,7 @@ Labeled graph code bricks for JavaScript.
 G.vadd( "A" ) ;
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-graph-labeled.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-graph-labeled/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-graph-labeled.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-graph-labeled/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-graph-labeled.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-graph-labeled)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-graph-labeled.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-graph-labeled)
 [![Build Status](https://img.shields.io/travis/aureooms/js-graph-labeled.svg?style=flat)](https://travis-ci.org/aureooms/js-graph-labeled)
