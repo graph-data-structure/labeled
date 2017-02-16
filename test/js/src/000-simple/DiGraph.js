@@ -1,11 +1,11 @@
 
-var collections = require( "aureooms-js-collections" ) ;
+var collections = require( "@aureooms/js-collections" ) ;
 var set = collections.set ;
 
-var cardinality = require( "aureooms-js-cardinality" ) ;
+var cardinality = require( "@aureooms/js-cardinality" ) ;
 
-var spec = require( "aureooms-js-graph-spec" ) ;
-var matrix = require( "aureooms-js-adjacency-matrix" ) ;
+var spec = require( "@aureooms/js-graph-spec" ) ;
+var matrix = require( "@aureooms/js-adjacency-matrix" ) ;
 
 var label = graphlabeled.label ;
 

@@ -676,10 +676,10 @@ var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = 
 	if (typeof exports === "object") {
 		definition(exports);
 	} else if (typeof define === "function" && define.amd) {
-		define("aureooms-js-graph-labeled", [], function () {
+		define("@aureooms/js-graph-labeled", [], function () {
 			return definition({});
 		});
 	} else if (typeof window === "object" && typeof window.document === "object") {
 		definition(window["graphlabeled"] = {});
-	} else console.error("unable to detect type of module to define for aureooms-js-graph-labeled");
+	} else console.error("unable to detect type of module to define for @aureooms/js-graph-labeled");
 })();

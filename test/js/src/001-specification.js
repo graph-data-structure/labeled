@@ -1,8 +1,8 @@
 
-var dll = require( "aureooms-js-dll" ) ;
+var dll = require( "@aureooms/js-dll" ) ;
 
-var spec = require( "aureooms-js-graph-spec" ) ;
-var list = require( "aureooms-js-adjacency-list" ) ;
+var spec = require( "@aureooms/js-graph-spec" ) ;
+var list = require( "@aureooms/js-adjacency-list" ) ;
 
 var label = graphlabeled.label ;
 var List = dll.DoublyLinkedList ;
