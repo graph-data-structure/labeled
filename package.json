@@ -16,7 +16,7 @@
 	],
 	"dependencies": {},
 	"repository": {
-		"url": "https://github.com/aureooms/js-graph-labeled.git",
+		"url": "https://github.com/make-github-pseudonymous-again/js-graph-labeled.git",
 		"type": "git"
 	},
 	"description": "labeled graph code bricks for JavaScript",
@@ -31,7 +31,7 @@
 	"main": "js/dist/graph-labeled.js",
 	"version": "0.1.1",
 	"bugs": {
-		"url": "https://github.com/aureooms/js-graph-labeled/issues"
+		"url": "https://github.com/make-github-pseudonymous-again/js-graph-labeled/issues"
 	},
 	"spm": {
 		"main": "js/dist/graph-labeled.js"
