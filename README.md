@@ -1,4 +1,4 @@
-[js-graph-labeled](http://aureooms.github.io/js-graph-labeled)
+[js-graph-labeled](http://make-github-pseudonymous-again.github.io/js-graph-labeled)
 ==
 
 Labeled graph code bricks for JavaScript.
